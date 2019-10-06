@@ -1,0 +1,1 @@
+Partials help to create headers and footers that you can use over and over only creating once.
