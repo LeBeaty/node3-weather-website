@@ -24,21 +24,21 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {    // This uses the hbs file to render a template
     res.render('index', {       //main index page
         title:'Weather',
-        name: 'Me Homie'
+        name: 'L. Beaty'
     })      
 }) 
 
 app.get('/about', (req, res) => { // about page make sure to add / before page name
     res.render('about', {
         title: 'About the app',
-        name: 'Me Fool'        
+        name: 'L. Beaty'        
     })
 })
 
 app.get('/help', (req, res) => { // help page make sure to add / before page name
     res.render('help', {
        title: 'This is the help shit',
-       name: 'The Masta'
+       name: 'L. Beaty'
         
     })
 }) 
