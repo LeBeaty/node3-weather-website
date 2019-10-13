@@ -37,7 +37,7 @@ app.get('/about', (req, res) => { // about page make sure to add / before page n
 
 app.get('/help', (req, res) => { // help page make sure to add / before page name
     res.render('help', {
-       title: 'This is the help page!',
+       title: 'Help page',
        name: 'L. Beaty'
         
     })
